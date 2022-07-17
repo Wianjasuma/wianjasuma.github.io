@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Armour Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Under Armour Indonesia</h2>
+                <p class="sub-heading">Your sport allies</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">999K</h4>
+                <p class="item">1 set running suits</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">600K</h4>
+                <p class="item">C3 stephen curry edition </p>
+            </div>
+
+        </header>
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <img src="img/logo.png" alt="Under Armour">
+            </div>
+            <ul class="menu-list">
+                <li><a href="">home</a></li>
+                <li><a href="">product</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="gallery">gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon"><img src="img/pria.jpg" alt="Pria"></div>
+                <h3>Pria</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero sapiente placeat quas provident recusandae!</p>
+            </div>
+            <div class="service">
+                <div class="icon"><img src="img/wanita.jpg" alt="wanita"></div>
+                <h3>Wanita</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero sapiente placeat quas provident recusandae!</p>
+            </div>
+            <div class="service">
+                <div class="icon"><img src="img/anak.jpg" alt="anak"></div>
+                <h3>Anak</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero sapiente placeat quas provident recusandae!</p>
+            </div>
+            <div class="service">
+                <div class="icon"><img src="img/sepatu.jpg" alt="sepatu"></div>
+                <h3>sepatu</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero sapiente placeat quas provident recusandae!</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/loki.png" alt="loki">
+            <img src="img/loki.png" alt="loki">
+            <img src="img/loki.png" alt="loki">
+            <img src="img/loki.png" alt="loki">
+            <img src="img/loki.png" alt="loki">
+            <img src="img/loki.png" alt="loki">
+            <img src="img/loki.png" alt="loki">
+            <img src="img/loki.png" alt="loki">
+            <img src="img/loki.png" alt="loki">
+            <img src="img/loki.png" alt="loki">
+        </section>
+    </div>
+
+    <script>
+    const menuToggle = document.querySelector('.menu-toggle input');
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', function(){
+    nav.classList.toggle('slide');
+    });
+
+    </script>
+
+
+</body>
+</html>
